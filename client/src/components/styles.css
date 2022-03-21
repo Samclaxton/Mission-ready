@@ -86,3 +86,86 @@
   margin-left: 20px;
   color: #9c9c9c;
 }
+
+.middle-section {
+  @media screen and (max-width: 460px);
+}
+
+.container {
+  height: 157px;
+}
+
+.black-navbar {
+  height: 30px;
+}
+
+.navbar-brand {
+  width: 1000px;
+}
+.pet-logo {
+  height: 157px;
+  width: 157px;
+  float: left;
+}
+
+.animal-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-left: 250px;
+}
+
+.dog-image {
+  height: 57px;
+  width: 57px;
+}
+
+.navbar-collapse {
+  display: flex;
+  width: 1500px;
+  justify-content: start;
+  margin-right: 10px;
+}
+
+.navbar-brand {
+  margin-left: 70px;
+}
+
+.d-flex {
+  width: 500px;
+}
+
+.middle-section {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar-image {
+  height: 846.81px;
+  width: 210.77px;
+  margin-left: 400px;
+}
+
+.product-image {
+  margin-right: 400px;
+}
+
+.btns {
+  margin-left: 20px;
+  height: 20px;
+  width: 400px;
+  color: #e5e5e5;
+  float: right;
+}
+
+.btn {
+  color: #e5e5e5;
+  float: right;
+  margin-right: 60px;
+}
+
+.btn btn-secondary {
+  color: #e5e5e5;
+}

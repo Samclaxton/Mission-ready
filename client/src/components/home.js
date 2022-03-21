@@ -80,26 +80,35 @@ export default function home() {
               />{' '}
             </div>
           </Navbar.Brand>
+          <div className="btns">
+            <button type="button" class="btn btn-secondary">
+              Cart
+            </button>
+            <button type="button" class="btn btn-secondary">
+              Login
+            </button>
+          </div>
+
+          {/* </div> */}
         </Container>
-        <div>
-          <button class="login-btn">Cart</button>
-          <button class="login-btn">Login</button>
-        </div>
       </Navbar>
       {/* <img className="animal-names" src={AnimalNames}></img> */}
+
       <p></p>
       <div classname="search-section">
         <Navbar bg="light" expand="lg">
           <Container fluid>
-            <Navbar.Brand href="#">Hi Papa Bear!</Navbar.Brand>
+            <Navbar.Brand href="/home">Hi Papa Bear!</Navbar.Brand>
             <Navbar.Toggle aria-controls="navbarScroll" />
             <Navbar.Collapse id="navbarScroll">
               <Form className="d-flex">
                 <FormControl
                   type="search"
                   placeholder="Search"
-                  className="me-2"
+                  className="me-3"
                   aria-label="Search"
+                  a
+                  href="search"
                 />
                 <Button variant="outline-success">Search</Button>
               </Form>

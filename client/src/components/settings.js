@@ -51,7 +51,7 @@ const SettingsPage = () => {
     }
   };
   return (
-    <div>
+    <div class="first">
       <Navbar className="black-navbar" bg="dark" variant="dark">
         <Container></Container>
       </Navbar>
@@ -115,21 +115,38 @@ const SettingsPage = () => {
               />{' '}
             </div>
           </Navbar.Brand>
-        </Container>
-        <div>
-          <button class="login-btn">Cart</button>
-          <button class="login-btn">Login</button>
-        </div>
-      </Navbar>
-      <p className="title"></p>
-      <div className="search-container">
-        <input
-          type="search"
-          onChange={(e) => searchItem(e.target.value)}
-          placeholder="Search products"
-        />
-      </div>
+          <div className="btns">
+            <button type="button" class="btn btn-secondary">
+              Cart
+            </button>
+            <button type="button" class="btn btn-secondary">
+              Login
+            </button>
+          </div>
 
+          {/* </div> */}
+        </Container>
+      </Navbar>
+      {/* <img className="animal-names" src={AnimalNames}></img> */}
+
+      <p></p>
+      <div classname="search-section">
+        <Navbar bg="light" expand="lg">
+          <Container fluid>
+            <Navbar.Brand href="/home">Hi Papa Bear!</Navbar.Brand>
+            <Navbar.Toggle aria-controls="navbarScroll" />
+            <Navbar.Collapse id="navbarScroll"></Navbar.Collapse>
+          </Container>
+        </Navbar>
+        <p className="title"></p>
+        <div className="search-container">
+          <input
+            type="search"
+            onChange={(e) => searchItem(e.target.value)}
+            placeholder="Search products"
+          />
+        </div>
+      </div>
       <div className="item-container">
         {searchData.map((item) => (
           <Item {...item} key={item.name} />

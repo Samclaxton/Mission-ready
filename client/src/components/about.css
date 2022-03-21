@@ -32,9 +32,21 @@
   width: 57px;
 }
 
+.navbar-collapse {
+  display: flex;
+  width: 1500px;
+  justify-content: start;
+  margin-right: 10px;
+}
+
 .navbar-brand {
   margin-left: 70px;
 }
+
+.d-flex {
+  width: 500px;
+}
+
 .middle-section {
   margin-top: 40px;
   display: flex;
@@ -51,8 +63,20 @@
   margin-right: 400px;
 }
 
-.login-btn {
-  margin-right: 100px;
-  height: 50px;
-  width: 100px;
+.btns {
+  margin-left: 20px;
+  height: 20px;
+  width: 400px;
+  color: #e5e5e5;
+  float: right;
+}
+
+.btn {
+  color: #e5e5e5;
+  float: right;
+  margin-right: 60px;
+}
+
+.btn btn-secondary {
+  color: #e5e5e5;
 }
