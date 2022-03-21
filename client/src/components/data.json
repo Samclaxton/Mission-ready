@@ -1,0 +1,49 @@
+[
+  {
+    "name": "Royal Canin Maxi Adult Dry Dog Food",
+    "logo": "https://www.pet.co.nz/images/cache/product_browse/images/products/5dad6af3963bf8.36487315.png",
+    "tags": ["Large Dogs", "Maxi", "Adult"]
+  },
+  {
+    "name": "My Dog",
+    "logo": "https://www.pet.co.nz/images/cache/product_browse/images/products/5f7bd3e3292267.19187935.jpeg",
+    "tags": ["Mince", "Puppy", "Spinach", "Rice", "Chicken"],
+    "href": "http://example.com/articles/1/comments"
+  },
+  {
+    "name": "Eukanuba",
+    "logo": "https://www.pet.co.nz/images/cache/product_browse/images/products/6057dc16d6e9c8.69976848.jpeg",
+    "tags": ["Large Dogs", "Eukanuba"]
+  },
+  {
+    "name": "Royal Canin Maxi Dry Puppy Food",
+    "logo": "https://www.pet.co.nz/images/cache/product_browse/images/products/5b1db3d82a85f9.88888459.jpeg",
+    "tags": ["Royal", "Maxi", "Puppy", "Royal Canin"]
+  },
+
+  {
+    "name": "Addiction",
+    "logo": "https://www.pet.co.nz/images/cache/product_browse/images/products/5fdfe5bf906ab1.80708455.png",
+    "tags": ["Large Dogs", "Dry", "Diet"]
+  },
+  {
+    "name": "Black Hawk",
+    "logo": "https://www.pet.co.nz/images/cache/product_feature/images/products/5f642def648390.89876388.jpeg",
+    "tags": ["Large", "Chicken", "Rice"]
+  },
+  {
+    "name": "Hills Science",
+    "logo": "https://www.pet.co.nz/images/cache/product_browse/images/products/5ca6a594b6a751.41923833.jpeg",
+    "tags": ["Cat", "Diet", "Chicken"]
+  },
+  {
+    "name": "Iams",
+    "logo": "https://www.pet.co.nz/images/cache/product_browse/images/products/5ca6a594b6a751.41923833.jpeg",
+    "tags": ["Cat", "Gourmet"]
+  },
+  {
+    "name": "Fancy Feast",
+    "logo": "https://www.pet.co.nz/images/cache/product_browse/images/products/5ca6a594b6a751.41923833.jpeg",
+    "tags": ["Cat, Fancy", "Gourmet"]
+  }
+]

@@ -1,0 +1,40 @@
+.container {
+  height: 157px;
+}
+
+.navbar-brand {
+  width: 1000px;
+}
+.pet-logo {
+  height: 157px;
+  width: 157px;
+  float: left;
+}
+
+.animal-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+
+.dog-image {
+  height: 57px;
+  width: 57px;
+}
+
+.middle-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar-image {
+  height: 846.81px;
+  width: 210.77px;
+  margin-left: 400px;
+}
+
+.product-image {
+  margin-right: 400px;
+}
