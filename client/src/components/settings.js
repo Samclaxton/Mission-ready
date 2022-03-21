@@ -120,7 +120,7 @@ const SettingsPage = () => {
           <button class="login-btn">Login</button>
         </div>
       </Navbar>
-      <p className="title"> Search Food</p>
+      <p className="title"></p>
       <div className="search-container">
         <input
           type="search"
