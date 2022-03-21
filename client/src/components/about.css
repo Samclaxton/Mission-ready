@@ -1,3 +1,7 @@
+.middle-section {
+  @media screen and (max-width: 460px);
+}
+
 .container {
   height: 157px;
 }
@@ -28,7 +32,11 @@
   width: 57px;
 }
 
+.navbar-brand {
+  margin-left: 70px;
+}
 .middle-section {
+  margin-top: 40px;
   display: flex;
   justify-content: space-between;
 }

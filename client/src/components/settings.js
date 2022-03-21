@@ -117,6 +117,7 @@ const SettingsPage = () => {
           </Navbar.Brand>
         </Container>
         <div>
+          <button class="login-btn">Cart</button>
           <button class="login-btn">Login</button>
         </div>
       </Navbar>
