@@ -2,48 +2,65 @@
   {
     "name": "Royal Canin Maxi Adult Dry Dog Food",
     "logo": "https://www.pet.co.nz/images/cache/product_browse/images/products/5dad6af3963bf8.36487315.png",
+    "price": "$124.95",
+    "text": "Login for the special AutoShip price",
     "tags": ["Large Dogs", "Maxi", "Adult"]
   },
   {
-    "name": "My Dog",
-    "logo": "https://www.pet.co.nz/images/cache/product_browse/images/products/5f7bd3e3292267.19187935.jpeg",
-    "tags": ["Mince", "Puppy", "Spinach", "Rice", "Chicken"],
-    "href": "http://example.com/articles/1/comments"
+    "name": "Animals Like Us",
+    "logo": "https://www.pet.co.nz/images/cache/product_browse/images/products/5ffbc0175cf6f6.69362305.jpeg",
+    "price": "$194.99",
+    "text": "Login for the special AutoShip price",
+    "tags": ["Salmon", "Spinach", "Dog"]
   },
   {
     "name": "Eukanuba",
     "logo": "https://www.pet.co.nz/images/cache/product_browse/images/products/6057dc16d6e9c8.69976848.jpeg",
+    "price": "$149.95",
+    "text": "Login for the special AutoShip price",
     "tags": ["Large Dogs", "Eukanuba"]
   },
   {
     "name": "Royal Canin Maxi Dry Puppy Food",
     "logo": "https://www.pet.co.nz/images/cache/product_browse/images/products/5b1db3d82a85f9.88888459.jpeg",
-    "tags": ["Royal", "Maxi", "Puppy", "Royal Canin"]
+    "price": "$124.95",
+    "text": "Login for the special AutoShip price",
+    "tags": ["Royal", "Maxi", "Puppy"]
   },
 
   {
     "name": "Addiction",
     "logo": "https://www.pet.co.nz/images/cache/product_browse/images/products/5fdfe5bf906ab1.80708455.png",
+    "price": "$124.95",
+    "text": "Login for the special AutoShip price",
     "tags": ["Large Dogs", "Dry", "Diet"]
   },
   {
     "name": "Black Hawk",
-    "logo": "https://www.pet.co.nz/images/cache/product_feature/images/products/5f642def648390.89876388.jpeg",
+    "logo": "https://www.pet.co.nz/images/cache/product_browse/images/products/5b1db3d82a85f9.88888459.jpeg",
+    "price": "$124.95",
+    "text": "Login for the special AutoShip price",
     "tags": ["Large", "Chicken", "Rice"]
   },
   {
-    "name": "Hills Science",
-    "logo": "https://www.pet.co.nz/images/cache/product_browse/images/products/5ca6a594b6a751.41923833.jpeg",
-    "tags": ["Cat", "Diet", "Chicken"]
+    "name": "Acana",
+    "logo": "https://www.pet.co.nz/images/cache/product_browse/images/products/6203497e6f35e0.83400454.jpeg",
+    "price": "$124.95",
+    "text": "Login for the special AutoShip price",
+    "tags": ["Diet", "Dog", "Chicken"]
   },
   {
-    "name": "Iams",
-    "logo": "https://www.pet.co.nz/images/cache/product_browse/images/products/5ca6a594b6a751.41923833.jpeg",
-    "tags": ["Cat", "Gourmet"]
+    "name": "Omega Plus",
+    "logo": "https://www.pet.co.nz/images/cache/product_browse/images/products/61b79b6387bd19.58024317.jpeg",
+    "price": "$124.95",
+    "text": "Login for the special AutoShip price",
+    "tags": ["Fish", "Gourmet, Dog"]
   },
   {
-    "name": "Fancy Feast",
-    "logo": "https://www.pet.co.nz/images/cache/product_browse/images/products/5ca6a594b6a751.41923833.jpeg",
-    "tags": ["Cat, Fancy", "Gourmet"]
+    "name": "Pro Plan",
+    "logo": "https://www.pet.co.nz/images/cache/product_browse/images/products/60f78e1c0ca216.09295523.png",
+    "price": "$124.95",
+    "text": "Login for the special AutoShip price",
+    "tags": ["Adult", "Dog", "Salmon"]
   }
 ]

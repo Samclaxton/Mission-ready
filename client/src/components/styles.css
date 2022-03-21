@@ -72,4 +72,17 @@
 .tags {
   color: #686980;
   font-size: 12px;
+  margin-left: 90px;
+}
+
+.name {
+}
+
+.price {
+  color: red;
+  margin-left: 120px;
+}
+.thumbnail-text {
+  margin-left: 20px;
+  color: #9c9c9c;
 }
