@@ -10,17 +10,17 @@ import {
   NavDropdown,
   Nav,
 } from 'react-bootstrap';
-import PetLogo from './pet-logo.png';
-import DogIcon from './dog-icon.png';
-import CatIcon from './cat-icon.png';
-import FishIcon from './fish-icon.png';
-import TurtleIcon from './turtle-icon.png';
-import BirdIcon from './bird-icon.png';
-import HorseIcon from './horse-icon.png';
-import SidebarFilter from './sidebar-filter.png';
+import PetLogo from './images/pet-logo.png';
+import DogIcon from './images/dog-icon.png';
+import CatIcon from './images/cat-icon.png';
+import FishIcon from './images/fish-icon.png';
+import TurtleIcon from './images/turtle-icon.png';
+import BirdIcon from './images/bird-icon.png';
+import HorseIcon from './images/horse-icon.png';
+import SidebarFilter from './images/sidebar-filter.png';
 import Card from 'react-bootstrap/Card';
-import ProductImage from './Products.png';
-import AnimalNames from './animal-names.png';
+import ProductImage from './images/Products.png';
+import AnimalNames from './images/animal-names.png';
 import './about.css';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 
