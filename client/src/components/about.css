@@ -2,6 +2,10 @@
   height: 157px;
 }
 
+.black-navbar {
+  height: 30px;
+}
+
 .navbar-brand {
   width: 1000px;
 }
@@ -14,9 +18,9 @@
 .animal-images {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   margin-top: 50px;
-  margin-right: 50px;
+  margin-left: 250px;
 }
 
 .dog-image {
@@ -37,4 +41,10 @@
 
 .product-image {
   margin-right: 400px;
+}
+
+.login-btn {
+  margin-right: 100px;
+  height: 50px;
+  width: 100px;
 }

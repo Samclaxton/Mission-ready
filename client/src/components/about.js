@@ -5,6 +5,10 @@ import {
   Button,
   Dropdown,
   ButtonGroup,
+  Form,
+  FormControl,
+  NavDropdown,
+  Nav,
 } from 'react-bootstrap';
 import PetLogo from './pet-logo.png';
 import DogIcon from './dog-icon.png';
@@ -23,6 +27,10 @@ import DropdownButton from 'react-bootstrap/DropdownButton';
 const About = () => {
   return (
     <div>
+      <Navbar className="black-navbar" bg="dark" variant="dark">
+        <Container></Container>
+      </Navbar>
+
       <Navbar bg="light" variant="light">
         <Container>
           <Navbar.Brand href="/">
@@ -80,26 +88,14 @@ const About = () => {
                 height="30"
                 className="dog-image"
               />{' '}
-              <Dropdown as={ButtonGroup}>
-                <Button variant="light">Login</Button>
-
-                <Dropdown.Toggle
-                  split
-                  variant="light"
-                  id="dropdown-split-basic"
-                />
-
-                <Dropdown.Menu>
-                  <Dropdown.Item href="#/action-1">Login</Dropdown.Item>
-                  <Dropdown.Item href="#/action-2">Search</Dropdown.Item>
-                  <Dropdown.Item href="#/action-3">Contact</Dropdown.Item>
-                </Dropdown.Menu>
-              </Dropdown>
             </div>
-            {/* <img className="animal-names" src={AnimalNames}></img> */}
           </Navbar.Brand>
         </Container>
+        <div>
+          <button class="login-btn">Login</button>
+        </div>
       </Navbar>
+      {/* <img className="animal-names" src={AnimalNames}></img> */}
       <p></p>
       <div className="middle-section">
         {' '}
