@@ -1,4 +1,4 @@
-import React from 'react';
+import { React } from 'react';
 import {
   Container,
   Navbar,
@@ -9,6 +9,9 @@ import {
   FormControl,
   NavDropdown,
   Nav,
+  Image,
+  Col,
+  Row,
 } from 'react-bootstrap';
 import PetLogo from './images/pet-logo.png';
 import DogIcon from './images/dog-icon.png';
@@ -17,7 +20,7 @@ import FishIcon from './images/fish-icon.png';
 import TurtleIcon from './images/turtle-icon.png';
 import BirdIcon from './images/bird-icon.png';
 import HorseIcon from './images/horse-icon.png';
-import SidebarFilter from './images/sidebar-filter2.png';
+import FilterImage from './images/sidebar-filter2.png';
 import Card from 'react-bootstrap/Card';
 import ProductImage from './images/main-results.png';
 import AnimalNames from './images/animal-names.png';
@@ -25,17 +28,39 @@ import './about.css';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 import RoyalCaninMaxi from './images/royalcaninmaxi.png';
 import NavbarMain from './NavbarMain';
+import WriteReview from './write-review.png';
+import RoyalCaninText from './images/royal-canin-text.png';
 
 const ProductDetail = () => {
   return (
     <>
-      <NavbarMain></NavbarMain>
-      <div className="middle-section">
-        {' '}
-        <img className="sidebar-image" src={SidebarFilter} />
-        <div>
-          {/* <img className="royal-canin-maxi" src={RoyalCaninMaxi} /> */}
-        </div>
+      <div className="App">
+        <NavbarMain></NavbarMain>
+        <main>
+          <Container>
+            <Row className="px-4 my-0">
+              <Col className="col" sm={4}>
+                <Image className="filter-image" src={FilterImage} fluid />
+              </Col>
+              <Col className="col2 px-4 my-5" sm={4}>
+                <Image className="filter-image" src={RoyalCaninMaxi} fluid />{' '}
+                {/* <Image className="product-image" src={} fluid /> */}
+              </Col>
+              <Col className="col2 px-4 my-5" sm={4}>
+                <h1>ROYAL CANIN MAXI ADULT DRY FOOD</h1>
+                <Image className="" src={WriteReview} fluid />
+                <br></br>
+                <br></br>
+                <h1>$171.99</h1>
+                <br></br>
+                <br></br>
+                <Image className="" src={RoyalCaninText} fluid />
+                {/* <Image className="product-image" src={} fluid /> */}
+              </Col>
+            </Row>
+            <Row></Row>
+          </Container>
+        </main>
       </div>
     </>
   );
