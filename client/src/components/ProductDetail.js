@@ -1,5 +1,4 @@
 import React from 'react';
-import NavbarMain from './NavbarMain';
 import {
   Container,
   Navbar,
@@ -24,19 +23,22 @@ import ProductImage from './images/main-results.png';
 import AnimalNames from './images/animal-names.png';
 import './about.css';
 import DropdownButton from 'react-bootstrap/DropdownButton';
+import RoyalCaninMaxi from './images/royalcaninmaxi.png';
+import NavbarMain from './NavbarMain';
 
-const About = () => {
+const ProductDetail = () => {
   return (
-    <div>
+    <>
       <NavbarMain></NavbarMain>
       <div className="middle-section">
         {' '}
         <img className="sidebar-image" src={SidebarFilter} />
-        <img className="product-image" src={ProductImage} />
+        <div>
+          {/* <img className="royal-canin-maxi" src={RoyalCaninMaxi} /> */}
+        </div>
       </div>
-      <br />
-    </div>
+    </>
   );
 };
 
-export default About;
+export default ProductDetail;

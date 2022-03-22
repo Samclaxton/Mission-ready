@@ -17,6 +17,11 @@
   height: 157px;
   width: 157px;
   float: left;
+  margin-right: 70px;
+}
+
+.top-icon-navigation {
+  margin-top: 60px;
 }
 
 .animal-images {
@@ -55,28 +60,38 @@
 
 .sidebar-image {
   height: 846.81px;
-  width: 210.77px;
+  width: 250.77px;
   margin-left: 400px;
 }
 
 .product-image {
   margin-right: 400px;
 }
+.container {
+  width: 100%;
+}
+.btn-class {
+  display: flex;
+  flex-wrap: nowrap;
 
-.btns {
+  width: 500px;
+  margin-left: 290px;
+}
+/* .btns {
   margin-left: 20px;
   height: 20px;
   width: 400px;
   color: #e5e5e5;
   float: right;
-}
+} */
 
-.btn {
+/* .btn {
   color: #e5e5e5;
   float: right;
-  margin-right: 60px;
-}
+  margin-right: 70px;
+} */
 
-.btn btn-secondary {
-  color: #e5e5e5;
+.royal-canin-maxi {
+  height: 522px;
+  width: 355px;
 }
