@@ -1,7 +1,3 @@
-.middle-section {
-  @media screen and (max-width: 460px);
-}
-
 .container {
   height: 157px;
 }
@@ -53,7 +49,7 @@
 }
 
 .middle-section {
-  margin-top: 40px;
+  margin-top: 400px;
   display: flex;
   justify-content: space-between;
 }
@@ -61,7 +57,7 @@
 .sidebar-image {
   height: 846.81px;
   width: 250.77px;
-  margin-left: 400px;
+  margin-right: 20px;
 }
 
 .product-image {
@@ -77,19 +73,6 @@
   width: 500px;
   margin-left: 290px;
 }
-/* .btns {
-  margin-left: 20px;
-  height: 20px;
-  width: 400px;
-  color: #e5e5e5;
-  float: right;
-} */
-
-/* .btn {
-  color: #e5e5e5;
-  float: right;
-  margin-right: 70px;
-} */
 
 .royal-canin-maxi {
   height: 522px;

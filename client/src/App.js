@@ -13,6 +13,7 @@ import About from './components/about';
 import SettingsPage from './components/settings';
 import NavbarMain from './components/NavbarMain';
 import ProductDetail from './components/ProductDetail';
+import Products from './components/Products';
 
 const App = () => {
   return (
@@ -21,9 +22,10 @@ const App = () => {
         <Route exact path="/" element={<RecordList />} />
         <Route path="/edit/:id" element={<Edit />} />
         <Route path="/create" element={<Create />} />
-        <Route path="/products" element={<About />} />
+        {/* <Route path="/products" element={<About />} /> */}
         <Route path="/home" element={<Home />} />
         <Route path="/search" element={<SettingsPage />} />
+        <Route path="/products" element={<Products />} />
         <Route path="/productdetail" element={<ProductDetail />} />
       </Routes>
     </div>

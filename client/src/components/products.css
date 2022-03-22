@@ -1,0 +1,56 @@
+.col {
+  width: 100%;
+  height: 1719px;
+}
+
+.navbar1 {
+  background-color: black;
+  height: 15px;
+}
+
+.navbar-main {
+  width: 100%;
+  /* margin-left: px; */
+}
+.my-4 {
+  height: 40px;
+}
+
+.my-0 {
+  height: 5px;
+}
+.pet-icons {
+  margin-top: 60px;
+}
+.container-icon-nav {
+  height: 50px;
+}
+
+.search-section {
+  margin-top: 20px;
+}
+.me-auto {
+  margin-left: 230px;
+}
+
+.navbar3 {
+  background-color: lightgray;
+  height: 30px;
+}
+
+.papa-bear-text {
+  margin-top: 40px;
+}
+.col2 {
+  height: 1719px;
+}
+
+.filter-image {
+  height: 1719px;
+  width: 272px;
+}
+.product-image {
+  margin-top: 20px;
+  height: 1719px;
+  width: 908.97px;
+}
