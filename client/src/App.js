@@ -11,7 +11,7 @@ import Create from './components/create';
 import Home from './components/home';
 import About from './components/about';
 import SettingsPage from './components/settings';
-import NavbarMain from './components/NavbarMain';
+import NavbarMain from './components/navbarMain';
 import ProductDetail from './components/ProductDetail';
 import Products from './components/Products';
 

@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Navbar, Form, FormControl, Button, Container } from 'react-bootstrap';
-import NavbarMain from './NavbarMain';
+import NavbarMain from './navbarMain';
 
 import Footer from '../components/footer.js';
 import './home.css';

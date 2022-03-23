@@ -16,7 +16,7 @@ import PetLogo from './images/pet-logo.png';
 import TopIconNav from './images/top-icon-navigation.png';
 import FilterImage from './images/sidebar-filter2.png';
 import ProductImage from './images/Products.png';
-import NavbarMain from './NavbarMain';
+import NavbarMain from './navbarMain';
 
 function App() {
   return (

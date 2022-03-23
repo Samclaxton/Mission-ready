@@ -27,7 +27,7 @@ import AnimalNames from './images/animal-names.png';
 import './about.css';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 import RoyalCaninMaxi from './images/royalcaninmaxi.png';
-import NavbarMain from './NavbarMain';
+import NavbarMain from './navbarMain';
 import WriteReview from './write-review.png';
 import RoyalCaninText from './images/royal-canin-text.png';
 
