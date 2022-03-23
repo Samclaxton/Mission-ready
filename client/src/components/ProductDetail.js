@@ -47,7 +47,7 @@ const ProductDetail = () => {
                 {/* <Image className="product-image" src={} fluid /> */}
               </Col>
               <Col className="col2 px-4 my-5" sm={4}>
-                <h1>ROYAL CANIN MAXI ADULT DRY FOOD</h1>
+                <h1>ROYAL CANIN MAXI ADULT DRY FOOD!</h1>
                 <Image className="" src={WriteReview} fluid />
                 <br></br>
                 <br></br>
