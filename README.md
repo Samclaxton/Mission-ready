@@ -1,5 +1,5 @@
 
-# Full Stack Web Applicaiton 
+# 
 
 ## Table of contents
 * [General info](#general-info)
@@ -31,6 +31,15 @@ Server:
 
 
 ## Setup
+
+Client: 
+ * npm install relevant packages
+ * npm start
+
+Server:
+* Connect Mongo Database to Server.JS with server port 
+* npm relevant packages
+* npm start
 
 
 
