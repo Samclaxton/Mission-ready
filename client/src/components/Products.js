@@ -17,11 +17,13 @@ import TopIconNav from './images/top-icon-navigation.png';
 import FilterImage from './images/sidebar-filter2.png';
 import ProductImage from './images/Products.png';
 import NavbarMain from './navbarMain';
+import Footer from './footer';
 
 function App() {
   return (
     <div className="App">
       <NavbarMain></NavbarMain>
+
       <main>
         <Container>
           <Row className="px-4 my-0">
@@ -30,6 +32,7 @@ function App() {
             </Col>
             <Col className="col2" sm={8}>
               <Image className="product-image" src={ProductImage} fluid />
+              <Footer className="bottom-footer"></Footer>
             </Col>
           </Row>
           <Row></Row>

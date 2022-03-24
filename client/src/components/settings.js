@@ -29,6 +29,7 @@ import ProductImage from './images/Products.png';
 import AnimalNames from './images/animal-names.png';
 import './about.css';
 import DropdownButton from 'react-bootstrap/DropdownButton';
+import Footer from './footer';
 const SettingsPage = () => {
   const [searchData, setSearchData] = useState(data);
   const searchItem = (query) => {
@@ -68,6 +69,7 @@ const SettingsPage = () => {
           <Item {...item} key={item.name} />
         ))}{' '}
       </div>
+      <Footer></Footer>
     </>
   );
 };

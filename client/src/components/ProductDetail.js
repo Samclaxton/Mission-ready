@@ -12,6 +12,7 @@ import {
   Image,
   Col,
   Row,
+  DropdownButton,
 } from 'react-bootstrap';
 import PetLogo from './images/pet-logo.png';
 import DogIcon from './images/dog-icon.png';
@@ -25,11 +26,11 @@ import Card from 'react-bootstrap/Card';
 import ProductImage from './images/main-results.png';
 import AnimalNames from './images/animal-names.png';
 import './about.css';
-import DropdownButton from 'react-bootstrap/DropdownButton';
 import RoyalCaninMaxi from './images/royalcaninmaxi.png';
 import NavbarMain from './navbarMain';
 import WriteReview from './write-review.png';
 import RoyalCaninText from './images/royal-canin-text.png';
+import Footer from './footer';
 
 const ProductDetail = () => {
   return (
@@ -61,6 +62,9 @@ const ProductDetail = () => {
             <Row></Row>
           </Container>
         </main>
+        <div className="bottom-footer">
+          <Footer></Footer>
+        </div>
       </div>
     </>
   );
