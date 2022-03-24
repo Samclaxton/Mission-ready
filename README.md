@@ -38,6 +38,7 @@ Client:
 
 Server:
 * npm install relevant packages
+* Create and configure config.env
 * Create PORT and MONGO_URI Variable and specify Value.
 * npm start
 
