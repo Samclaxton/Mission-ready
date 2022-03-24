@@ -11,7 +11,6 @@
 Full Stack Web Application with serverless backend.
 	
 ## Technologies
-Project is created with:
 
 Client:
 * HTML5
@@ -24,6 +23,7 @@ Client:
 * Fuse.js v17.0.2
 
 Server:
+* Node.js
 * cors v2.8.5	
 * dotenv v16.0.0
 * express v4.17.3
