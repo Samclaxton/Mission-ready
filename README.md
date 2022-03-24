@@ -8,7 +8,7 @@
 
 
 ## General info
-Full Stack Web Application with serverless backend
+Full Stack Web Application with serverless backend.
 	
 ## Technologies
 Project is created with:
