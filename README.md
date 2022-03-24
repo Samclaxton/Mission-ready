@@ -1,5 +1,5 @@
 
-# 
+# Full Stack Web Application
 
 ## Table of contents
 * [General info](#general-info)
@@ -8,7 +8,7 @@
 
 
 ## General info
-Full Stack Web Application with Backend connected to Server
+Full Stack Web Application with serverless backend
 	
 ## Technologies
 Project is created with:
@@ -37,9 +37,10 @@ Client:
  * npm start
 
 Server:
-* Connect Mongo Database to Server.JS with server port 
-* npm relevant packages
+* npm install relevant packages
+* Create PORT and MONGO_URI Variable and specify Value.
 * npm start
+
 
 
 
